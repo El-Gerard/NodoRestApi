@@ -11,3 +11,6 @@ agregarNodo: Recibe por parámetros string la dirección URI del nuevo nodo al q
 
 
 consultarSuma: Consulta a cada nodo almacenado el número que ha guardado hasta el total y lo suma al número local. Su respuesta será en text/plain con la totalidad de la suma de todos los nodos.
+
+
+Cada nodo posee un cliente interno que consumirá a los nodos a los que tenga acceso a través del método agregarNodo mencionado anteriormente.
